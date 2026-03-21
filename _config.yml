@@ -1,0 +1,7 @@
+title: The Giordani Family Blog
+author: Claudio Giordani
+theme: minima
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
