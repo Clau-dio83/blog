@@ -1,11 +1,10 @@
 title: The Giordani Family Blog
-theme: minima
 remote_theme: jekyll/minima
 
-# This tells GitHub where the blog lives
+# Important for your /blog subfolder
 url: "https://claudiogiordani.com"
 baseurl: "/blog"
 
+# GitHub Pages needs this specifically
 plugins:
   - jekyll-remote-theme
-  - jekyll-feed
