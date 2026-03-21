@@ -1,4 +1,6 @@
 ---
 layout: home
+title: Home
 ---
-Welcome to our family blog! This is where we share our stories and recipes.
+
+Welcome to our new family blog! Below you will find our latest stories.
