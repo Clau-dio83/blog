@@ -1,7 +1,11 @@
 title: The Giordani Family Blog
-author: Claudio Giordani
 theme: minima
 remote_theme: jekyll/minima
+
+# This tells GitHub where the blog lives
+url: "https://claudiogiordani.com"
+baseurl: "/blog"
+
 plugins:
-  - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-feed
