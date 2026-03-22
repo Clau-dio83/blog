@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: Clau-dio83/blog # Your repo path
+  branch: main
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "pins"
+    label: "My Pins"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Pin Image", name: "image", widget: "image", required: false}
+      - {label: "Note/Description", name: "body", widget: "markdown"}
